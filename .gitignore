@@ -1,0 +1,29 @@
+# --- Blender backups / autosaves ---
+*.blend1
+*.blend2
+*.blend3
+*.blend[4-9]
+*.blend@
+
+# /autosave/
+
+/renders/
+/output/
+/exports/
+/build/
+
+*.blend_thumb.png
+
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Editors ---
+.vscode/
+.idea/
